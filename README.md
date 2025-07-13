@@ -138,3 +138,15 @@ plt.xticks(rotation=90)
 plt.title("Frequency of Weather Conditions")
 plt.show()
 ```
+---
+
+## 🔍 Summary & Learnings
+
+- Practiced core pandas operations on real-world weather data  
+- Learned how to filter data using conditions and string matching  
+- Explored usage of `.groupby()`, `.mean()`, and `.unique()`  
+- Applied data transformations using `.rename()` and `.apply()`  
+- Created visualizations using `matplotlib` and `seaborn`  
+- Strengthened understanding of DataFrame indexing, null checks, and column manipulation
+
+---
