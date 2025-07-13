@@ -177,3 +177,26 @@ plt.show()
 
 ---
 
+```markdown
+
+## 📂 File Structure
+
+📦 data_analysis_warmup_exercises  
+┣ 📓 weather.ipynb  
+┗ 📄 README.md
+
+```
+
+---
+
+## 👤 Author - HARSHAVARDHAN BOMMALATA
+
+This project highlights practical pandas skills for beginner-level data analysis tasks. For more content on Python, SQL, or data science practice:
+
+- **Instagram**: [@always_harsha_royal](https://www.instagram.com/always_harsha_royal/)  
+- **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/harshavardhan-bommalata-7bb9442b0/)  
+- **Email**: hbommalata@gmail.com
+
+---
+
+**Thank you for viewing this project! Feel free to fork, clone, and explore the notebook for your own learning.**
