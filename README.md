@@ -150,3 +150,30 @@ plt.show()
 - Strengthened understanding of DataFrame indexing, null checks, and column manipulation
 
 ---
+
+````markdown
+---
+
+## 💻 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/harshavardhanBOMMALATA/DataAnalysisWarmUpExercises.git
+````
+
+2. Navigate into the folder:
+
+   ```bash
+   cd DataAnalysisWarmUpExercises
+   ```
+
+3. Open the notebook:
+
+   ```bash
+   jupyter notebook weather.ipynb
+   ```
+
+4. Run all the cells one by one to explore the analysis
+
+---
+
