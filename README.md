@@ -16,3 +16,17 @@ The notebook helps you understand how to:
 - Apply functions and aggregations
 - Identify unique conditions like snowfall or high wind speed
 - Visualize trends and distributions in the dataset
+
+---
+
+## 📘 Project Overview
+
+**Project Title**: Weather Data Analysis  
+**Level**: Beginner to Intermediate  
+**Tool**: Jupyter Notebook  
+**Libraries Used**: `pandas`, `numpy`, `matplotlib`, `seaborn`
+
+This project demonstrates beginner-friendly data analysis techniques using a real-world weather dataset. It walks through practical use cases such as filtering conditions (e.g., snowfall, high wind speed), identifying unique weather patterns, handling missing data, grouping, aggregating, and visualizing the weather trends. This notebook serves as a great entry point for learning how to explore and analyze time-series or categorical data using Python.
+
+---
+
