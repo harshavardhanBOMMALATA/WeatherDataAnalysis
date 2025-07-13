@@ -30,3 +30,12 @@ This project demonstrates beginner-friendly data analysis techniques using a rea
 
 ---
 
+## 🎯 Objectives
+
+1. Understand and apply basic pandas operations on a real-world weather dataset.
+2. Perform filtering and conditional selection (e.g., days with snowfall or high wind speed).
+3. Use grouping and aggregation methods to summarize weather trends.
+4. Identify unique weather conditions and count their occurrences.
+5. Visualize weather distributions using bar plots and count plots.
+
+---
