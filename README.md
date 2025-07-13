@@ -39,3 +39,102 @@ This project demonstrates beginner-friendly data analysis techniques using a rea
 5. Visualize weather distributions using bar plots and count plots.
 
 ---
+
+## 🏗️ Project Structure
+
+### 1. Data Setup
+
+- Real-world weather dataset with columns like `Weather`, `Visibility_km`, `Wind Speed_km/h`, `Temperature_C`, etc.
+- Loaded using pandas from a CSV file.
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Reading the dataset
+data = pd.read_csv("weather.csv")
+
+# Display first few rows
+data.head()
+```
+
+### 2. Data Analysis Tasks
+
+#### ✅ Task 1: Find Unique Weather Conditions  
+```python
+data['Weather'].unique()
+Absolutely! Here's the **complete Task 2 section** in the **exact format** you want:
+
+---
+
+````markdown
+### 2. Data Analysis Tasks
+
+### Task 2:
+
+#### ✅ Task 1: Find Unique Weather Conditions  
+```python
+data['Weather'].unique()
+````
+
+#### ✅ Task 2: Find Instances of Snowfall
+
+```python
+data[data['Weather'].str.contains("Snow")]
+```
+
+#### ✅ Task 3: Find Number of Times Weather is Exactly Clear
+
+```python
+data[data['Weather'] == "Clear"]
+```
+
+#### ✅ Task 4: Find Wind Speed Above 24 km/h
+
+```python
+data[data['Wind Speed_km/h'] > 24]
+```
+
+#### ✅ Task 5: Find All Null Values in the Dataset
+
+```python
+data.isnull().sum()
+```
+
+#### ✅ Task 6: Rename Column ‘Weather’ to ‘Weather Condition’
+
+```python
+data.rename(columns={'Weather': 'Weather Condition'}, inplace=True)
+```
+
+#### ✅ Task 7: Mean Visibility When Weather is Fog
+
+```python
+data[data['Weather Condition'] == 'Fog']['Visibility_km'].mean()
+```
+
+#### ✅ Task 8: Group Weather and Find Mean
+
+```python
+data.groupby('Weather Condition').mean()
+```
+
+#### ✅ Task 9: Find Maximum Wind Speed When Visibility > 40
+
+```python
+data[data['Visibility_km'] > 40]['Wind Speed_km/h'].max()
+```
+
+#### ✅ Task 10: Plot Frequency of Weather Conditions
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+plt.figure(figsize=(12,6))
+sns.countplot(x='Weather Condition', data=data)
+plt.xticks(rotation=90)
+plt.title("Frequency of Weather Conditions")
+plt.show()
+```
